@@ -1,6 +1,6 @@
 {
   "name": "exauth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "type": "commonjs",
@@ -9,13 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+"
+    "url": "git+https://github.com/dmi3midd/exauth"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {},
-  "homepage": "",
+  "keywords": [
+    "authorization", "jsonwebtoken", "express", "mongodb", "mongoose", "router"
+  ],
+  "author": "dmi3mid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmi3midd/exauth/issues"
+  },
+  "homepage": "https://github.com/dmi3midd/exauth#readme",
   "devDependencies": {
     "dotenv": "^17.2.0",
     "nodemon": "^3.1.10"
